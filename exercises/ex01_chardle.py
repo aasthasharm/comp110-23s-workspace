@@ -1,12 +1,13 @@
-__author__ = 730577151
+"""EX01 - Chardle - A cute step toward Wordle."""
+__author__: str = 730577151
 
-word_input = input("Enter a 5-character word: ")
+word_input: str = input("Enter a 5-character word: ")
 
 if len(word_input) != 5:
     print("Word must contain 5 characters")
 else: 
-    char_input = input("Enter a single character: ") 
-    number_of_matches = 0
+    char_input: str = input("Enter a single character: ") 
+    number_of_matches: int = 0
 
     if len(char_input) != 1:
         print("Character must be a single character")
