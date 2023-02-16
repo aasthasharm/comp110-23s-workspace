@@ -1,5 +1,6 @@
 """Wordle with One Guess"""
 __author__: str = 730577151
+
 secret_word: str = "python"
 word_input = input(f"What is your {len(secret_word)}-letter guess?")
 WHITE_BOX: str = "\U00002B1C"
