@@ -39,7 +39,7 @@ def input_guess(expected_len: int) -> str:
     return guess
 
 def main() -> None:
-    """Main loop of the program and game."""
+    """Main loop of the program and main loop of the game."""
     secret_word: str = "codes"
     guess: str = ""
     emoji_str: str = ""
